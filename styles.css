@@ -369,12 +369,21 @@ h5 {
 }
 #c2 {
   display: flex;
-  flex-direction: column;
+/*   flex-direction: column; */
   height: 100%;
   width: 60vw;
   align-items: center;
+  justify-content: center;
 }
-#play-pause {
+
+/* new change  */
+#c2 audio {
+  width: 70%;
+  height: 78%;
+}
+/* new change  */
+
+/* #play-pause {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -403,7 +412,7 @@ h5 {
   width: 65%;
   margin-left: 2%;
   margin-right: 2%;
-}
+} */
 #c3 {
   display: flex;
   align-items: center;
@@ -463,15 +472,15 @@ h5 {
     display: none;
   }
   #c1 {
-    width: 25vw;
+    width: 35vw;
   }
   #c2 {
-    width: 75vw;
+    width: 65vw;
   }
 }
-@media screen and (max-width: 590px) {
+/* @media screen and (max-width: 590px) {
   #play-pause {
     width: 35vw;
   }
-}
+} */
 /* css end */
